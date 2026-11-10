@@ -1,6 +1,6 @@
 ﻿Connect-ExchangeOnline
 
-$email = "mehdi.ajjaj@pluxeegroup.com"
+$email = "user@company.com"
 
 $folderId = (Get-MailboxFolderStatistics -Identity $email -FolderScope Inbox -ErrorAction Stop |
     Where-Object FolderType -eq 'Inbox').FolderId
