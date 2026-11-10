@@ -1,3 +1,8 @@
+#########
+### CMD Command: powershell -ExecutionPolicy Bypass -File "C:\Users\guilherme.pataro\Downloads\Exchange_Get_Anonymous_Sharing_for_Inbox_for_All_Users.ps1"
+### CMD Command (TEST): powershell -ExecutionPolicy Bypass -File "C:\Users\guilherme.pataro\Downloads\Exchange_Get_Anonymous_Sharing_for_Inbox_for_All_Users.ps1" -Test
+
+
 <#
 .SYNOPSIS
     Reports user mailboxes (shared mailboxes excluded) that share their Inbox
